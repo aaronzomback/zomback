@@ -3,13 +3,13 @@ backend:
   repo: aaronzomback/zomback
   branch: main
 
-media_folder: static/img
-public_folder: /img
+media_folder: static/uploads
+public_folder: /uploads
 
 collections:
   - name: 'daily'
     label: 'Daily'
-    folder: 'content/dailies'
+    folder: 'src/content/dailies'
     create: true
     slug: 'index'
     media_folder: ''
