@@ -1,15 +1,14 @@
-import * as React from "react"
+import * as React from 'react'
 import Layout from '../components/layout'
 
 const ContactPage = () => {
-
-    return (
+  return (
         <Layout>
-        <div className="font-[Cormorant] flex justify-center"> 
-            <h3> Contact : aaronzomback@protonmail.com </h3>
-        </div>
+            <div className="font-[Cormorant] flex justify-center">
+                <h3> Contact : aaronzomback@protonmail.com </h3>
+            </div>
         </Layout>
-    )
+  )
 }
 
 export default ContactPage
